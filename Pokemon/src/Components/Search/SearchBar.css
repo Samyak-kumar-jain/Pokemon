@@ -1,0 +1,23 @@
+.search-bar {
+    padding: 10px 15px;
+    width: 100%;
+    max-width: 400px;
+    border: 1px solid #444;
+    background-color: #1f2239;
+    color: #f9f9f9;
+    border-radius: 20px;
+    margin-bottom: 20px;
+    font-size: 1em;
+    transition: border-color 0.3s, background-color 0.3s;
+  }
+  
+  .search-bar::placeholder {
+    color: #888; /* Adjust the placeholder color for better contrast */
+  }
+  
+  .search-bar:focus {
+    outline: none;
+    border-color: #6dbdff; /* Light blue focus border */
+    background-color: #2a2a4a; /* Slightly lighter background on focus */
+  }
+  
